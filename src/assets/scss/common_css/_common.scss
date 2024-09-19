@@ -1,0 +1,78 @@
+// /*-----------------------------------*\
+//    * #RESET
+//   \*-----------------------------------*/
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  body.active { overflow: hidden; }
+
+
+  *, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  li { list-style: none; }
+  
+  a { text-decoration: none; }
+  a,
+  img,
+  time,
+  span,
+  input,
+  label,
+  select,
+  button,
+  textarea,
+  ion-icon { display: block; }
+  
+  input,
+  button,
+  select,
+  textarea {
+    background: none;
+    border: none;
+    font: inherit;
+  }
+  
+  button,
+  select { cursor: pointer; }
+  
+  input,
+  textarea { width: 100%; }
+  span{
+    display: inline-block;
+  }
+
+
+
+  /*-----------------------------------*\
+   * #REUSED STYLE
+  \*-----------------------------------*/
+  
+  .container { padding-inline: 10px; }
+  
+  
+  
+  .w-100 { width: 100%; }
+  
+  
+
+ p{
+  font-size: 15px;
+  color: #b4b6b8;
+  line-height: 24px;
+ }
+ img{
+  height: 100%;
+  width: 100%;
+ }
